@@ -33,6 +33,6 @@ void DrawMarquee(int num_leds, CRGB leds[])
         leds[i] = CRGB::Black;
     }
 
-    delay(50);
+    delay(30);
 
 }
