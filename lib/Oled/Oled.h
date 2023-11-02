@@ -3,9 +3,9 @@
 #ifndef OLED_H
 #define OLED_H
 
-#define OLED_CLOCK 15           // Pins for the oled display
-#define OLED_DATA 4
-#define OLED_RESET 16
+#define OLED_CLOCK 18           // Pins for the oled display
+#define OLED_DATA 17
+#define OLED_RESET 21
 
 class OledManager {
     private:
